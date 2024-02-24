@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0; /* додано крапку з комою */
+    font-family: Arial, sans-serif;
+}
+
+.myblock { /* додано відкриваючу фігурну дужку */
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 30px; /* додано двокрапку */
+}
+
+.lemon { /* замінено на клас lemon */
+    width: 180px;
+    height: 180px; /* виправлено пробіл */
+    margin: 10px; /* додано "px" */
+    background: url(https://cdn4.iconfinder.com/data/icons/Limon_iContainer/512/Grapefruit.png); /* виправлено пробіли */
+    background-size: contain; /* виправлено регістр */
+    background-position: 50%; /* виправлено пробіли і видалено пробіл після числа */
+    border-radius: 5px; /* виправлено "xp" на "px" */
+    float: left;
+}
+
+.about-lemon h3 {
+    text-align: center; /* виправлено "centr" на "center" */
+    padding: 10px 0; /* додано двокрапку та пробіл перед "px" */
+}
+
+.about-lemon p {
+    font-size: 12px; /* виправлено "xp" на "px" */
+    line-height: 150%; /* додано крапку з комою */
+    margin: 20px 0; /* додано двокрапку */
+}
