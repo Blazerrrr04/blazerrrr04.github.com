@@ -72,6 +72,16 @@ body {
   font-size: 1em; 
 }
 
+.work-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.lab-work,
+.prac-work {
+  flex-basis: 45%; 
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
