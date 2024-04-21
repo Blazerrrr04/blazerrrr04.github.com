@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -17,7 +18,7 @@ body {
 .left {
   width: 25%;
   padding: 20px;
-  background-color: #3F6592;
+  background-color: #ff9100;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: white;
 }
@@ -74,12 +75,12 @@ body {
 
 .work-container {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between; /* Рівномірно розподілити між собою */
 }
 
 .lab-work,
 .prac-work {
-  flex-basis: 45%; 
+  flex-basis: 45%; /* Встановити ширину, щоб розділити простір */
 }
 
 hr {
@@ -123,6 +124,32 @@ hr {
 }
 
 .btn:hover {
-  background: #3F6592;
+  background: #ff9100;
   color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center; /* Вирівнює елементи вертикально */
+}
+
+.icons {
+  flex-grow: 1; /* Розтягує блок іконок на весь вільний простір */
+  display: flex;
+  justify-content: center; /* Вирівнює іконки по центру горизонтально */
+}
+
+.footer-container {
+  width: 1120px;
+  margin: 0 auto;
+  background-color: #ffbb00;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  display: flex;
+  flex-direction: column; /* Змінює напрямок розміщення на вертикальний */
+  align-items: center; /* Вирівнює по центру вертикально */
+}
+
+.footer-container .copyright {
+  margin-top: 20px; /* Додає відступ від іконок до копірайту */
 }
