@@ -75,12 +75,12 @@ body {
 
 .work-container {
   display: flex;
-  justify-content: space-between; /* Рівномірно розподілити між собою */
+  justify-content: space-between; 
 }
 
 .lab-work,
 .prac-work {
-  flex-basis: 45%; /* Встановити ширину, щоб розділити простір */
+  flex-basis: 45%; 
 }
 
 hr {
@@ -130,13 +130,13 @@ hr {
 
 .social-icons {
   display: flex;
-  align-items: center; /* Вирівнює елементи вертикально */
+  align-items: center; 
 }
 
 .icons {
-  flex-grow: 1; /* Розтягує блок іконок на весь вільний простір */
+  flex-grow: 1; 
   display: flex;
-  justify-content: center; /* Вирівнює іконки по центру горизонтально */
+  justify-content: center;
 }
 
 .footer-container {
@@ -146,8 +146,8 @@ hr {
   color: rgb(0, 0, 0);
   padding: 40px;
   display: flex;
-  flex-direction: column; /* Змінює напрямок розміщення на вертикальний */
-  align-items: center; /* Вирівнює по центру вертикально */
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .footer-container .copyright {
